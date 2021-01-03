@@ -54,6 +54,12 @@ function draw() {
  box1.display();
  box2.display();
  box3.display();
+ if(keyDown(LEFT_ARROW)){
+	 helicopterSprite.x-=5;
+ }
+ if(keyDown(RIGHT_ARROW)){
+	helicopterSprite.x+=5;
+}
 }
 
 function keyPressed() {
